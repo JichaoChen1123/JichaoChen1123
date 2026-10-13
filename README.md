@@ -55,7 +55,7 @@ class JichaoChen:
 ## 📊 GitHub 统计
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JichaoChen1123&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JichaoChen1123&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;hide_rank=true" alt="GitHub statistics" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JichaoChen1123&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Most used languages" />
 </p>
 
