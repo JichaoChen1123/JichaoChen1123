@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-hero.png" alt="陈继超 — 把好奇心，做成能用的作品。AI应用产品 / 软件分析 / 体验与验证" width="100%" />
+  <img src="assets/profile-hero.png" alt="作品空间 — 让想法，产生引力。" width="100%" />
 </p>
 
 <p align="center">
