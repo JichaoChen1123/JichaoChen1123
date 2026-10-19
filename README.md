@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,50:203a43,100:2c5364&amp;height=200&amp;section=header&amp;text=Jichao%20Chen&amp;fontSize=48&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=RAG%20%C2%B7%20LLM%20Apps%20%C2%B7%20Evaluation&amp;descAlignY=58&amp;descSize=18" alt="Jichao Chen — RAG · LLM Apps · Evaluation" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,50:203a43,100:2c5364&amp;height=200&amp;section=header&amp;text=Jichao%20Chen&amp;fontSize=48&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=AI%20Product%20%C2%B7%20LLM%20Apps%20%C2%B7%20Evaluation&amp;descAlignY=58&amp;descSize=18" alt="Jichao Chen — AI Product · LLM Apps · Evaluation" />
 </p>
 
 <p align="center">
@@ -20,13 +20,56 @@
 
 ```python
 class JichaoChen:
-    focus     = ["RAG 应用", "检索质量评测", "LLM 产品工程"]
+    focus     = ["AI 应用产品", "RAG 应用", "质量评测与迭代"]
     stack     = ["Python", "FastAPI", "React", "TypeScript"]
     exploring = ["混合检索 & 重排", "RAG 评测与诊断", "结构化输出"]
     motto     = "回答要有来源，效果要能评测。"
 ```
 
-## 🚀 项目
+## 🌟 重点项目 · 练有引力
+
+<a href="https://github.com/JichaoChen1123/favorite-clash">
+  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/hero.svg" alt="练有引力 — 从看懂，到练懂" width="100%" />
+</a>
+
+**把健身视频、动作教学和训练记录连起来，让想练的动作真正进入日常训练。**
+
+从用户的两种困惑出发：想练某块肌肉，却不知道选什么动作；收藏了很多视频，却看不清建议之间的差别。项目把肌群探索、器材指南、视频观点对照与训练记录放进同一个手机优先的网页。
+
+| 场景 | 产品如何回应 |
+| --- | --- |
+| **不知道练哪里、怎么练** | 可旋转3D人体，确认肌群后进入动作页；按器材找动作，配步骤、常见错误与教学视频 |
+| **健身建议听起来互相矛盾** | 对照2–3条B站视频，区分观点与适用条件；展开字幕原句、前后文与时间链接核对 |
+| **动作收藏后很少再看** | 收藏与训练衔接，从已收藏动作开始记录每组重量、次数与完成情况 |
+| **练过之后记不清进度** | 保存训练历史、上次表现和本次小结，配组间休息计时；手机与电脑共用后台数据 |
+
+**产品实现：** `13个肌群` · `16个代表动作` · `6类器材指南` · `手机底栏 / PC侧栏` · `私人HTTPS访问`
+
+**AI与质量：** JSON Schema约束输出、Pydantic校验；引用绑定实际保存的字幕分段，原句和时间由程序读取；失败保留已完成材料，额度不足时持久化暂停。肌群、收藏和训练记录无需模型调用。
+
+**技术：** `React` · `TypeScript` · `Three.js` · `FastAPI` · `SQLite` · `Faster Whisper` · `官方 Codex CLI` · `Tailscale Serve`
+
+<a href="https://github.com/JichaoChen1123/favorite-clash#界面预览">
+  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/muscle-desktop.png" alt="实际运行界面：3D人体肌群选择与中文肌群列表" width="100%" />
+</a>
+
+<p align="center">
+  <a href="https://github.com/JichaoChen1123/favorite-clash"><b>查看项目 →</b></a> ·
+  <a href="https://github.com/JichaoChen1123/favorite-clash#本地部署"><b>部署指南</b></a> ·
+  <a href="https://github.com/JichaoChen1123/favorite-clash#使用指南"><b>如何使用</b></a>
+</p>
+
+<details>
+<summary><b>展开手机端：器材指南与动作教学</b></summary>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/equipment-mobile.png" alt="手机端器材指南" width="260" />
+  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/teaching-mobile.png" alt="手机端动作教学" width="260" />
+</p>
+
+</details>
+
+## 🚀 更多项目
 
 | 项目 | 简介 | 技术 |
 | --- | --- | --- |
