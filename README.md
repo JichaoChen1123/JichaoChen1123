@@ -1,120 +1,76 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,50:203a43,100:2c5364&amp;height=200&amp;section=header&amp;text=Jichao%20Chen&amp;fontSize=48&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=AI%20Product%20%C2%B7%20LLM%20Apps%20%C2%B7%20Evaluation&amp;descAlignY=58&amp;descSize=18" alt="Jichao Chen — AI Product · LLM Apps · Evaluation" />
+  <img src="assets/profile-hero.png" alt="陈继超 — 把好奇心，做成能用的作品。AI应用产品 / 软件分析 / 体验与验证" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/JichaoChen1123">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=20&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=%E8%AE%A9%E6%96%87%E6%A1%A3%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%8F%90%E9%97%AE%E3%80%81%E8%A2%AB%E5%BC%95%E7%94%A8%E3%80%81%E8%A2%AB%E8%AF%84%E6%B5%8B;Hybrid+Search+%2B+Rerank+%2B+Citations;Building+RAG+apps+that+you+can+measure" alt="让文档可以被提问、被引用、被评测" />
-  </a>
+  <a href="#关于我">关于我</a> &nbsp; / &nbsp;
+  <a href="#精选作品">精选作品</a> &nbsp; / &nbsp;
+  <a href="#能力与工具">能力与工具</a> &nbsp; / &nbsp;
+  <a href="https://github.com/JichaoChen1123?tab=repositories">全部仓库 ↗</a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JichaoChen1123&amp;color=38bdf8&amp;style=flat-square&amp;label=Profile+Views" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/JichaoChen1123?style=flat-square&amp;color=38bdf8" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/JichaoChen1123?style=flat-square&amp;color=38bdf8&amp;affiliations=OWNER" alt="GitHub stars" />
-</p>
+## 关于我
 
----
+你好，我是 **陈继超**，人工智能专业背景，关注 **AI 应用产品与软件分析工具**。
 
-## 👋 关于我
+我喜欢从具体的使用问题开始，把想法拆成清晰的功能和交互，再通过可运行的产品、接口验证与反馈持续改进。最近在做两件事：让健身建议更容易理解与执行，让软件内部结构更容易被分析与核对。
 
-人工智能专业背景，关注 **AI 应用产品、MCP 工具集成与质量评测**。项目实践覆盖面向用户的健身应用、面向 AI 助手的软件分析工具，以及知识问答和文档学习。
-
-从使用场景拆解需求，通过功能原型、接口验证与测试案例推进实现，再根据实际使用中的问题改进交互和结果质量。
-
-```python
-class JichaoChen:
-    focus    = ["AI 应用产品", "MCP 工具集成", "RAG 质量评测"]
-    building = ["练有引力", "AppLens 软件透视", "RAGOps"]
-    stack    = ["Python", "TypeScript", "React", "FastAPI", "Node.js"]
-    motto    = "让功能用得起来，让结果经得起核对。"
-```
-
-## 🌟 重点项目 · 练有引力
+## 精选作品
 
 <a href="https://github.com/JichaoChen1123/favorite-clash">
-  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/hero.svg" alt="练有引力 — 从看懂，到练懂" width="100%" />
+  <img src="assets/project-gravity.png" alt="练有引力 — 3D肌群探索、视频观点对照与训练记录" width="100%" />
 </a>
 
-**把健身视频、动作教学和训练记录连起来，让想练的动作真正进入日常训练。**
+**把健身视频、动作教学和训练记录连起来的 AI 健身应用。**
 
-从用户的两种困惑出发：想练某块肌肉，却不知道选什么动作；收藏了很多视频，却看不清建议之间的差别。项目把肌群探索、器材指南、视频观点对照与训练记录放进同一个手机优先的网页。
+- **选清楚练什么**：旋转 3D 人体选择肌群，或从器材找到动作，查看教学与常见错误。
+- **看明白怎么说**：围绕同一问题对照 2–3 条 B 站视频，区分观点与适用条件，展开原句、时间和前后文核对。
+- **把想法练起来**：动作收藏衔接训练，记录每组重量与次数，回看历史并使用组间计时。
 
-| 场景 | 产品如何回应 |
-| --- | --- |
-| **不知道练哪里、怎么练** | 可旋转3D人体，确认肌群后进入动作页；按器材找动作，配步骤、常见错误与教学视频 |
-| **健身建议听起来互相矛盾** | 对照2–3条B站视频，区分观点与适用条件；展开字幕原句、前后文与时间链接核对 |
-| **动作收藏后很少再看** | 收藏与训练衔接，从已收藏动作开始记录每组重量、次数与完成情况 |
-| **练过之后记不清进度** | 保存训练历史、上次表现和本次小结，配组间休息计时；手机与电脑共用后台数据 |
+`React` · `TypeScript` · `Three.js` · `FastAPI` · `SQLite` · `JSON Schema`
 
-**产品实现：** `13个肌群` · `16个代表动作` · `6类器材指南` · `手机底栏 / PC侧栏` · `私人HTTPS访问`
-
-**AI与质量：** JSON Schema约束输出、Pydantic校验；引用绑定实际保存的字幕分段，原句和时间由程序读取；失败保留已完成材料，额度不足时持久化暂停。肌群、收藏和训练记录无需模型调用。
-
-**技术：** `React` · `TypeScript` · `Three.js` · `FastAPI` · `SQLite` · `Faster Whisper` · `官方 Codex CLI` · `Tailscale Serve`
-
-<a href="https://github.com/JichaoChen1123/favorite-clash#界面预览">
-  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/muscle-desktop.png" alt="实际运行界面：3D人体肌群选择与中文肌群列表" width="100%" />
-</a>
-
-<p align="center">
-  <a href="https://github.com/JichaoChen1123/favorite-clash"><b>查看项目 →</b></a> ·
-  <a href="https://github.com/JichaoChen1123/favorite-clash#本地部署"><b>部署指南</b></a> ·
-  <a href="https://github.com/JichaoChen1123/favorite-clash#使用指南"><b>如何使用</b></a>
-</p>
+**[查看项目 ↗](https://github.com/JichaoChen1123/favorite-clash)** &nbsp; · &nbsp; [界面预览](https://github.com/JichaoChen1123/favorite-clash#界面预览) &nbsp; · &nbsp; [部署与使用](https://github.com/JichaoChen1123/favorite-clash#本地部署)
 
 <details>
-<summary><b>展开手机端：器材指南与动作教学</b></summary>
+<summary>展开实际界面 · 电脑与手机</summary>
 
+<p>
+  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/muscle-desktop.png" alt="练有引力实际界面：3D肌群选择" width="100%" />
+</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/equipment-mobile.png" alt="手机端器材指南" width="260" />
-  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/teaching-mobile.png" alt="手机端动作教学" width="260" />
+  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/equipment-mobile.png" alt="手机端器材指南" width="31%" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/JichaoChen1123/favorite-clash/main/docs/assets/teaching-mobile.png" alt="手机端动作教学" width="31%" />
 </p>
 
 </details>
 
-## 🚀 更多项目
+<br />
 
-从软件分析工具到知识应用，持续探索 AI 的接入方式、交互流程与效果验证。
+<a href="https://github.com/JichaoChen1123/app-lens">
+  <img src="assets/project-applens.png" alt="AppLens — 软件结构分析、CLI与MCP、证据追溯" width="100%" />
+</a>
 
-| 项目 | 场景与核心能力 | 关键技术 |
-| --- | --- | --- |
-| 🏋️ [**练有引力 · 健身应用**](https://github.com/JichaoChen1123/favorite-clash) | 手机优先的健身应用：3D肌群与器材选动作、B站视频观点对照、教学与动作收藏、逐组训练记录和休息计时 | React · Three.js · FastAPI · SQLite |
-| 🔬 [**AppLens · 软件透视**](https://github.com/JichaoChen1123/app-lens) | 本地软件分析工具箱：分析 JavaScript / Electron / ASAR 与 .NET 程序结构，通过 CLI 和 MCP 为 AI 助手提供可追溯证据；提供 Windows 安装入口 | TypeScript · Node.js · MCP |
-| 🔍 [**RAGOps**](https://github.com/JichaoChen1123/RAGOps) | 面向模型与 Prompt 迭代的评测工作台：数据集版本、任务配置、指标与答案评分、失败诊断、人工复核和报告导出 | FastAPI · React · SQLAlchemy · Docker |
-| 💬 [**源答 · SaaS 知识助手**](https://github.com/JichaoChen1123/yuanda-rag-assistant) | 帮助文档检索问答，结合向量检索、BM25、RRF 融合与 CrossEncoder 重排，展示回答及来源。基于 [enterprise-rag-system](https://github.com/PiriTnz/enterprise-rag-system) 二次开发 | FastAPI · Chroma · sentence-transformers · Streamlit |
-| 📖 [**知页 · AI 文档学习助手**](https://github.com/JichaoChen1123/zhiye-ai-study) | 围绕当前文档组织连续问答、概念可视化、闪卡和测验，串联阅读、练习与复盘。基于 [get-it](https://github.com/beltromatti/get-it) 二次开发 | Next.js · React 19 · Three.js · JSON Schema |
+**为开发者和 AI 助手提供结构分析与可追溯证据的本地软件分析工具箱。**
 
-**AppLens 快速入口：** [项目与安装](https://github.com/JichaoChen1123/app-lens#readme) · [MCP 接入](https://github.com/JichaoChen1123/app-lens#连接-ai-助手) · [命令与证据](https://github.com/JichaoChen1123/app-lens/blob/main/docs/cli.md) · [Windows 使用](https://github.com/JichaoChen1123/app-lens/blob/main/docs/WINDOWS.md)
+- **读懂结构**：分析 JavaScript / Electron / ASAR，梳理模块依赖与跨进程通信；支持读取 .NET 程序集结构。
+- **接入 AI 工作流**：通过命令行或 MCP 调用分析能力，让助手围绕具体文件、模块与证据继续追问。
+- **让结论可核对**：追踪功能、比较版本、导入导出证据；外部分析引擎按相应环境接入。
 
-## 🛠️ 技术栈
+`TypeScript` · `Node.js` · `MCP` · `Electron / ASAR` · `.NET`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,sqlite,docker,nginx,githubactions&amp;theme=dark" alt="Python, FastAPI, SQLite, Docker, Nginx, GitHub Actions" /><br />
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,vite,tailwind,threejs,electron,git&amp;theme=dark" alt="TypeScript, React, Next.js, Vite, Tailwind, Three.js, Electron, Git" />
-</p>
+**[查看项目 ↗](https://github.com/JichaoChen1123/app-lens)** &nbsp; · &nbsp; [安装指南](https://github.com/JichaoChen1123/app-lens#windows-快速开始) &nbsp; · &nbsp; [MCP 接入](https://github.com/JichaoChen1123/app-lens#连接-ai-助手) &nbsp; · &nbsp; [命令与证据](https://github.com/JichaoChen1123/app-lens/blob/main/docs/cli.md)
 
-**RAG / AI：** `Chroma` · `BM25` · `RRF` · `CrossEncoder` · `sentence-transformers` · `OpenAI Codex SDK` · `JSON Schema`
+## 能力与工具
 
-## 📊 GitHub 统计
+| 产品与体验 | AI 与分析 | 实现与验证 |
+| :--- | :--- | :--- |
+| 场景拆解 · 功能流程 · 多端交互 | Prompt · 上下文 · JSON Schema | Python · TypeScript · React |
+| 原型验证 · 异常反馈 · 功能验收 | RAG · MCP · 软件逆向分析 | FastAPI · Node.js · SQLite · Git |
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=JichaoChen1123&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;hide_rank=true" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JichaoChen1123&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" alt="Most used languages" />
-</p>
+<br />
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JichaoChen1123&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true" alt="GitHub activity graph" />
-</p>
-
-## 📫 联系我
-
-<p align="center">
-  <a href="https://github.com/JichaoChen1123">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Contact me on GitHub" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:2c5364,50:203a43,100:0f2027&amp;height=100&amp;section=footer" alt="Footer" />
+  <b>有趣的想法，值得做成真正能用的东西。</b><br /><br />
+  <a href="https://github.com/JichaoChen1123?tab=repositories">探索我的仓库 ↗</a>
 </p>
