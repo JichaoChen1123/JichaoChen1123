@@ -79,6 +79,7 @@ class JichaoChen:
 
 | 项目 | 场景与核心能力 | 关键技术 |
 | --- | --- | --- |
+| 🏋️ [**练有引力 · 健身应用**](https://github.com/JichaoChen1123/favorite-clash) | 手机优先的健身应用：3D肌群与器材选动作、B站视频观点对照、教学与动作收藏、逐组训练记录和休息计时 | React · Three.js · FastAPI · SQLite |
 | 🔬 [**AppLens · 软件透视**](https://github.com/JichaoChen1123/app-lens) | 本地软件分析工具箱：分析 JavaScript / Electron / ASAR 与 .NET 程序结构，通过 CLI 和 MCP 为 AI 助手提供可追溯证据；提供 Windows 安装入口 | TypeScript · Node.js · MCP |
 | 🔍 [**RAGOps**](https://github.com/JichaoChen1123/RAGOps) | 面向模型与 Prompt 迭代的评测工作台：数据集版本、任务配置、指标与答案评分、失败诊断、人工复核和报告导出 | FastAPI · React · SQLAlchemy · Docker |
 | 💬 [**源答 · SaaS 知识助手**](https://github.com/JichaoChen1123/yuanda-rag-assistant) | 帮助文档检索问答，结合向量检索、BM25、RRF 融合与 CrossEncoder 重排，展示回答及来源。基于 [enterprise-rag-system](https://github.com/PiriTnz/enterprise-rag-system) 二次开发 | FastAPI · Chroma · sentence-transformers · Streamlit |
