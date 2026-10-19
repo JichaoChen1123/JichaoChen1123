@@ -18,12 +18,16 @@
 
 ## 👋 关于我
 
+人工智能专业背景，关注 **AI 应用产品、MCP 工具集成与质量评测**。项目实践覆盖面向用户的健身应用、面向 AI 助手的软件分析工具，以及知识问答和文档学习。
+
+从使用场景拆解需求，通过功能原型、接口验证与测试案例推进实现，再根据实际使用中的问题改进交互和结果质量。
+
 ```python
 class JichaoChen:
-    focus     = ["AI 应用产品", "RAG 应用", "质量评测与迭代"]
-    stack     = ["Python", "FastAPI", "React", "TypeScript"]
-    exploring = ["混合检索 & 重排", "RAG 评测与诊断", "结构化输出"]
-    motto     = "回答要有来源，效果要能评测。"
+    focus    = ["AI 应用产品", "MCP 工具集成", "RAG 质量评测"]
+    building = ["练有引力", "AppLens 软件透视", "RAGOps"]
+    stack    = ["Python", "TypeScript", "React", "FastAPI", "Node.js"]
+    motto    = "让功能用得起来，让结果经得起核对。"
 ```
 
 ## 🌟 重点项目 · 练有引力
@@ -71,20 +75,16 @@ class JichaoChen:
 
 ## 🚀 更多项目
 
-| 项目 | 简介 | 技术 |
-| --- | --- | --- |
-| 🔍 [**RAGOps**](https://github.com/JichaoChen1123/RAGOps) | RAG 应用评测与诊断平台：导入样本、执行评测、诊断失败、人工复核、导出报告 | FastAPI · React · SQLAlchemy · Docker |
-| 💬 [**源答 · yuanda-rag-assistant**](https://github.com/JichaoChen1123/yuanda-rag-assistant) | 基于 [PiriTnz/enterprise-rag-system](https://github.com/PiriTnz/enterprise-rag-system) 二次开发的 SaaS 知识助手：向量检索 + BM25 混合搜索、RRF 融合、CrossEncoder 重排、来源引用 | FastAPI · Chroma · sentence-transformers · Streamlit |
-| 📖 [**知页 · zhiye-ai-study**](https://github.com/JichaoChen1123/zhiye-ai-study) | 基于 [beltromatti/get-it](https://github.com/beltromatti/get-it) 二次开发的 AI 文档学习助手：文档问答、概念可视化、闪卡、测验、费曼练习 | Next.js · React 19 · Three.js · Tailwind |
+从软件分析工具到知识应用，持续探索 AI 的接入方式、交互流程与效果验证。
 
-<p align="center">
-  <a href="https://github.com/JichaoChen1123/RAGOps">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JichaoChen1123&amp;repo=RAGOps&amp;theme=tokyonight&amp;hide_border=true" alt="RAGOps repository card" />
-  </a>
-  <a href="https://github.com/JichaoChen1123/yuanda-rag-assistant">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=JichaoChen1123&amp;repo=yuanda-rag-assistant&amp;theme=tokyonight&amp;hide_border=true" alt="源答 repository card" />
-  </a>
-</p>
+| 项目 | 场景与核心能力 | 关键技术 |
+| --- | --- | --- |
+| 🔬 [**AppLens · 软件透视**](https://github.com/JichaoChen1123/app-lens) | 本地软件分析工具箱：分析 JavaScript / Electron / ASAR 与 .NET 程序结构，通过 CLI 和 MCP 为 AI 助手提供可追溯证据；提供 Windows 安装入口 | TypeScript · Node.js · MCP |
+| 🔍 [**RAGOps**](https://github.com/JichaoChen1123/RAGOps) | 面向模型与 Prompt 迭代的评测工作台：数据集版本、任务配置、指标与答案评分、失败诊断、人工复核和报告导出 | FastAPI · React · SQLAlchemy · Docker |
+| 💬 [**源答 · SaaS 知识助手**](https://github.com/JichaoChen1123/yuanda-rag-assistant) | 帮助文档检索问答，结合向量检索、BM25、RRF 融合与 CrossEncoder 重排，展示回答及来源。基于 [enterprise-rag-system](https://github.com/PiriTnz/enterprise-rag-system) 二次开发 | FastAPI · Chroma · sentence-transformers · Streamlit |
+| 📖 [**知页 · AI 文档学习助手**](https://github.com/JichaoChen1123/zhiye-ai-study) | 围绕当前文档组织连续问答、概念可视化、闪卡和测验，串联阅读、练习与复盘。基于 [get-it](https://github.com/beltromatti/get-it) 二次开发 | Next.js · React 19 · Three.js · JSON Schema |
+
+**AppLens 快速入口：** [项目与安装](https://github.com/JichaoChen1123/app-lens#readme) · [MCP 接入](https://github.com/JichaoChen1123/app-lens#连接-ai-助手) · [命令与证据](https://github.com/JichaoChen1123/app-lens/blob/main/docs/cli.md) · [Windows 使用](https://github.com/JichaoChen1123/app-lens/blob/main/docs/WINDOWS.md)
 
 ## 🛠️ 技术栈
 
