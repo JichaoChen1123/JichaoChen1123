@@ -114,10 +114,10 @@
 
 <p>
   <a href="https://github.com/JichaoChen1123?tab=repositories"><img alt="GitHub statistics — rank hidden" src="https://github-readme-stats.vercel.app/api?username=JichaoChen1123&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;theme=react&amp;bg_color=1F222E&amp;title_color=A9C89F&amp;icon_color=91B5D8&amp;text_color=E6EDF3" height="185" /></a>
-  <a href="https://github.com/JichaoChen1123?tab=repositories"><img alt="Languages in public repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JichaoChen1123&amp;langs_count=6&amp;layout=compact&amp;hide_border=true&amp;theme=react&amp;bg_color=1F222E&amp;title_color=A9C89F&amp;text_color=E6EDF3" height="185" /></a>
+  <a href="https://github.com/JichaoChen1123?tab=repositories"><img alt="Languages in public repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JichaoChen1123&amp;langs_count=6&amp;layout=compact&amp;hide_border=true&amp;theme=react&amp;bg_color=1F222E&amp;title_color=A9C89F&amp;text_color=E6EDF3&amp;exclude_repo=app-lens" height="185" /></a>
 </p>
 
-<sub>语言分布反映公开仓库的代码构成。</sub>
+<sub>语言分布反映公开仓库的代码构成，不含 AppLens。</sub>
 
 <h3>⚡ Recent GitHub Activity</h3>
 
