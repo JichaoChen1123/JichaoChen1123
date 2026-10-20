@@ -5,6 +5,7 @@
 <p align="center">
   <a href="#练有引力">练有引力</a> &nbsp; / &nbsp;
   <a href="#applens">AppLens</a> &nbsp; / &nbsp;
+  <a href="#常用的积木">工具箱</a> &nbsp; / &nbsp;
   <a href="https://github.com/JichaoChen1123?tab=repositories">探索全部仓库 ↗</a>
 </p>
 
@@ -37,6 +38,20 @@
 `TypeScript` · `Node.js` · `MCP` · `Electron / ASAR` · `.NET`
 
 **[查看项目 ↗](https://github.com/JichaoChen1123/app-lens)** &nbsp; · &nbsp; [安装指南](https://github.com/JichaoChen1123/app-lens#windows-快速开始) &nbsp; · &nbsp; [MCP 接入](https://github.com/JichaoChen1123/app-lens#连接-ai-助手) &nbsp; · &nbsp; [使用文档](https://github.com/JichaoChen1123/app-lens/blob/main/docs/index.md)
+
+<br />
+
+## 常用的积木
+
+翻开这些仓库，经常能看到下面几组搭配。
+
+| 用来做什么 | 常见组合 |
+| :--- | :--- |
+| **做界面** | `TypeScript` · `React / Next.js` · `Three.js`<br>文档阅读、3D 场景，以及手机和电脑上的交互。 |
+| **接模型与工具** | `Prompt` · `JSON Schema` · `Codex SDK` · `MCP`<br>组织上下文、约束输出，把模型和外部工具接进实际流程。 |
+| **找资料、看效果** | `Chroma` · `BM25 / RRF` · `Rerank`<br>混合检索、引用核对，再到样本评测与失败诊断。 |
+| **拆软件** | `Electron / ASAR` · `.NET` · `CLI / MCP`<br>顺着文件、模块和调用关系，寻找可以核对的线索。 |
+| **让它跑起来** | `Python / FastAPI` · `Node.js` · `SQLite` · `pytest / Vitest`<br>接口、后台任务、记录保存，以及改完之后的回归检查。 |
 
 <br />
 
